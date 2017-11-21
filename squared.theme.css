@@ -945,7 +945,8 @@
 	}
 
 	.channel-members-wrap {
-		margin-bottom: 70px;
+		margin-top: -15px;
+		margin-bottom: 1px;
 	}
 
 	/* STATUS ICON */
