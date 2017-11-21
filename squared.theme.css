@@ -6,6 +6,11 @@
 		font-family: Segoe UI;
 	}
 
+	#app-mount {
+    	background: var(--fifth-color);
+    	opacity: 50%;
+	}
+
 	/* CHAT MESSAGES */
 	.theme-dark .message-group .comment .markup {
 		font-size: 12px;
