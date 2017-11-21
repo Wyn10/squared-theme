@@ -3,7 +3,7 @@
 
 /* FONT */
 	body {
-		font-family: sans-serif;
+		font-family: Segoe UI;
 	}
 
 	/* CHAT MESSAGES */
@@ -248,6 +248,11 @@
 
 	.container-RYiLUQ {
     	background-color: var(--third-color);
+	}
+
+	.containerDefault-7RImuF {
+	margin-top: 5px;
+	margin-bottom: 5px;
 	}
 
 	/* SERVER TITLE */
@@ -877,7 +882,9 @@
 	}
 
 	.topic-1KFf6J {
+		
 		padding-right: 175px;
+	
 	}
 
 	/* MENTIONED LEFT BAR */
@@ -1430,6 +1437,9 @@
 		.theme-dark .friends-table .messages .message-group-blocked.revealed, .theme-dark .messages-wrapper .messages .message-group-blocked.revealed {
 			background-color: var(--second-color);
 		}
+
+
+
 
 /* THEME COLORS */
 	:root {
