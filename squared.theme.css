@@ -53,20 +53,29 @@
 		border-radius: 0 !important;
 	}
 
-	.badge {
-		border-radius: 0;
-		background-color: #00c4ff;
-		color: var(--fifthText-color);
-	}
+ 	.badge {
+ 		-webkit-box-shadow: 0 1px 0 rgba(0,0,0,.25), inset 0 1px 0 hsla(0,0%,100%,.15);
+ 		background-clip: padding-box;
+ 		background-color: #00c4ff;
+ 		border-radius: 0;
+ 		box-shadow: 0 1px 0 rgba(0,0,0,.25), inset 0 1px 0 hsla(0,0%,100%,.15);
+ 		color: var(--fifthText-color);
+ 		display: inline-block;
+ 		font-size: 12px;
+ 		font-weight: 500;
+ 		line-height: 12px;
+ 		padding: 3px 6px;
+ 		text-shadow: 0 1px 0 rgba(0,0,0,.25);
+ 	}
 
-	.guilds-wrapper .guilds .guild.audio .guild-inner:after {
+ 	.guilds-wrapper .guilds .guild.audio .guild-inner:after {
 		border-radius: 0;
 		background-color: var(--fifth-color);
 	}
 
 	/* SELECTED SERVER BAR */
 	.guilds-wrapper .guilds .guild.selected:before {
-		background-color: #00c4ff;
+		background-color: rgba(0, 196, 255, 1);
 		border-radius: 0px;
 		height: 25px;
 		margin-top: -12px;
@@ -179,10 +188,8 @@
 	}
 
 	.guilds-wrapper .guilds .guild.unread:before {
-		background: rgb(251, 255, 0);
-		border-radius: 0px;
-		height: 10px;
-		margin-top: -6px;
+		border-radius: 0;
+		background: #00c4ff;
 	}
 
 /* CONNECTED VOICE */
@@ -224,23 +231,23 @@
 	
 	.nameDefault-1I0lx8 {
 		color: var(--thirdText-color);
-        font-size: 14px;
+		font-size: 14px;
 	}
 
 	.content-2mSKOj {
-        background-color: var(--third-color);
+		background-color: var(--third-color);
 		border-radius: 0;
 	}
 
 	.nameDefaultText-QoumjC, .nameDefaultVoice-1swZoh, .nameLockedText-2fGz07, .nameLockedVoice-wNOMNa {
 		color: var(--fourthText-color);
-        font-size: 14px;
+		font-size: 14px;
 	}
 
 	.header-1tSljs {
-        background-color: var(--second-color);
-        margin-top: 2px;
-        border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+		background-color: var(--second-color);
+        	margin-top: 2px;
+        	border-bottom: 2px solid rgba(0, 0, 0, 0.2);
 	}
 
 	.channels-wrap {
@@ -248,42 +255,32 @@
 	}
 
 	.container-iksrDt {
-        background: var(--second-color);
+        	background: var(--second-color);
 	}
 	
 	.container-3lnMWU {
-        background: var(--third-color);
-        border-bottom: none;
+        	background: var(--third-color);
+        	border-bottom: none;
 	}
 
 	.container-RYiLUQ {
-    	background-color: var(--third-color);
+    		background-color: var(--third-color);
 	}
 
 	.containerDefault-7RImuF {
-	margin-top: 5px;
-	margin-bottom: 5px;
+		margin-top: 5px;
+		margin-bottom: 5px;
 	}
 
-	.colorDefaultText-2v6rRX, .colorDefaultVoice-1x4dEl, .colorHoveredText-1CsxK1, 
-	.colorHoveredVoice-1P3kui, .colorLockedText-2onHWv, .colorLockedVoice-2VCSgk, .colorSelectedText-3YhFC6, 
-	.colorSelectedVoice-ieXC3Z, .colorUnreadText-1KwCnP, .colorUnreadVoice-1Ztv9I {
-		color: #00c4ff;
-	}
-
-	.wrapper-2xO9RX {
-		-webkit-box-shadow: 0 1px 0 rgba(0,0,0,.25), inset 0 1px 0 hsla(0,0%,100%,.15);
-		background-clip: padding-box;
+	.unread-23Kvxk {
 		background-color: #00c4ff;
-		border-radius: 0px;
-		box-shadow: 0 1px 0 rgba(0,0,0,.25), inset 0 1px 0 hsla(0,0%,100%,.15);
-		color: var(--fifthText-color);
-		display: inline-block;
-		font-size: 12px;
-		font-weight: 500;
-		line-height: 12px;
-		padding: 3px 6px;
-		text-shadow: 0 1px 0 rgba(0,0,0,.25);
+		border-radius: 0;
+		height: 6px;
+		left: 0;
+		margin-top: 0px;
+		position: absolute;
+		top: 50%;
+		width: 5px;
 	}
 
 	/* SERVER TITLE */
