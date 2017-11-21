@@ -331,6 +331,12 @@
 		border-radius: 0px;
 	}
 
+	.avatar-large {
+		background-size: 50px 50px;
+		height: 50px;
+		width: 50px;
+	}
+
 /* PRIVATE MESSAGES */
 
 	.private-channels .scroller {
@@ -777,6 +783,13 @@
 	    display: none;
 	}
 
+	/* EMOJI CHOICE OPTIONS */
+	.emoji-picker .scroller .emoji-item {
+		background-position: 50%!important;
+		background-repeat: no-repeat!important;
+		background-size: contain!important;
+	}
+
 	/* UPLOAD ICON */
 	.channel-textarea-upload {
 		border: none;
@@ -861,6 +874,10 @@
 
 	.theme-dark .chat .title-wrap .topic {
 		margin-right: 370px;
+	}
+
+	.topic-1KFf6J {
+		padding-right: 175px;
 	}
 
 	/* MENTIONED LEFT BAR */
@@ -1413,9 +1430,6 @@
 		.theme-dark .friends-table .messages .message-group-blocked.revealed, .theme-dark .messages-wrapper .messages .message-group-blocked.revealed {
 			background-color: var(--second-color);
 		}
-
-
-
 
 /* THEME COLORS */
 	:root {
