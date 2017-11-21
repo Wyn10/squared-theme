@@ -741,7 +741,10 @@
 
 	/* TYPING */
 	.theme-dark .chat form .typing {
-		display: none;
+		background-color: var(--second-color)!important;
+		color:var(--secondText-color)!important;
+		position:absolute;
+		height 50px;
 	}
 
 	/* EMOJI BUTTON */
@@ -1150,6 +1153,67 @@
 
 	#user-profile-modal .guilds .section .section-header {
 		color: var(--fourthText-color);
+	}
+
+/* USER-ACTIVITY */
+
+	.headerNormal-1cioxU {
+		background: var(--first-color);
+	}
+
+	.headerStreaming-3F-wjT {
+		background: var(--fifth-color);
+	}
+
+	.avatarNormal-3luwna {
+		border-color: var(--fourth-color);
+	}
+
+	.avatarStreaming-1ZydJV {
+		border-color: #7a5eaa;
+	}
+
+	.body-3rkFrF {
+		background-color: var(--first-color);
+		border-bottom: 1px solid var(--scrollbar-color);
+		padding: 5px;
+	}
+
+	.footer-2J5zqP {
+		background-color: var(--fourth-color);
+		padding: 5px;
+	}
+
+	.headerActivityText-3qBQRo {
+		color: var(--firstText-color);
+		font-size: 14px;
+		padding: 0 10px;
+		text-align: center;
+	}
+
+	.theme-dark .activityProfile-2pymp0 .content-P9ThHS, .theme-dark .activityProfile-2pymp0 .headerText-2CVBxK, .theme-dark .activityUserPopout-1nmgaw .content-P9ThHS, .theme-dark .activityUserPopout-1nmgaw .headerText-2CVBxK, .theme-light .activityProfile-2pymp0 .content-P9ThHS, .theme-light .activityProfile-2pymp0 .headerText-2CVBxK, .theme-light .activityUserPopout-1nmgaw .content-P9ThHS, .theme-light .activityUserPopout-1nmgaw .headerText-2CVBxK {
+		color: var(--secondText-color);
+	}
+
+	.theme-dark .activityProfile-2pymp0 .details-vSFjFG, .theme-dark .activityProfile-2pymp0 .name-8onsv0, .theme-dark .activityUserPopout-1nmgaw .details-vSFjFG, .theme-dark .activityUserPopout-1nmgaw .name-8onsv0, .theme-light .activityProfile-2pymp0 .details-vSFjFG, .theme-light .activityProfile-2pymp0 .name-8onsv0, .theme-light .activityUserPopout-1nmgaw .details-vSFjFG, .theme-light .activityUserPopout-1nmgaw .name-8onsv0 {
+		color: var(--fourthText-color);
+	}
+
+	.bodyTitleText-hSiL7d {
+		color: var(--secondText-color);
+		font-size: 12px;
+		font-weight: 700;
+		margin-left: 4px;
+		text-transform: uppercase;
+	}
+
+	.headerUsernameNoNickname-1iGxNP {
+		color: var(--firstText-color);
+	}
+
+	.headerDiscriminator-3fLlCR {
+		font-size: 12px;
+		color: var(--thirdText-color);
 	}
 
 /* SETTINGS */
