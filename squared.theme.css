@@ -825,10 +825,13 @@
 		color: var(--secondText-color);
 	}
 
+	.message-group .comment .markup {
+		margin-top: 10px;
+	}
+
 	.messages-wrapper {
 		width: 100%;
 	}
-
 
 	.theme-dark .chat .jump-to-present-bar {
 		background-color: var(--scrollbar-color);
