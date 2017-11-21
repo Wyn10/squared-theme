@@ -55,6 +55,8 @@
 
 	.badge {
 		border-radius: 0;
+		background-color: #00c4ff;
+		color: var(--fifthText-color);
 	}
 
 	.guilds-wrapper .guilds .guild.audio .guild-inner:after {
@@ -64,7 +66,7 @@
 
 	/* SELECTED SERVER BAR */
 	.guilds-wrapper .guilds .guild.selected:before {
-		background-color: rgba(200, 200, 200, 1.0);
+		background-color: #00c4ff;
 		border-radius: 0px;
 		height: 25px;
 		margin-top: -12px;
@@ -177,7 +179,10 @@
 	}
 
 	.guilds-wrapper .guilds .guild.unread:before {
-		border-radius: 0;
+		background: rgb(251, 255, 0);
+		border-radius: 0px;
+		height: 10px;
+		margin-top: -6px;
 	}
 
 /* CONNECTED VOICE */
@@ -258,6 +263,27 @@
 	.containerDefault-7RImuF {
 	margin-top: 5px;
 	margin-bottom: 5px;
+	}
+
+	.colorDefaultText-2v6rRX, .colorDefaultVoice-1x4dEl, .colorHoveredText-1CsxK1, 
+	.colorHoveredVoice-1P3kui, .colorLockedText-2onHWv, .colorLockedVoice-2VCSgk, .colorSelectedText-3YhFC6, 
+	.colorSelectedVoice-ieXC3Z, .colorUnreadText-1KwCnP, .colorUnreadVoice-1Ztv9I {
+		color: #00c4ff;
+	}
+
+	.wrapper-2xO9RX {
+		-webkit-box-shadow: 0 1px 0 rgba(0,0,0,.25), inset 0 1px 0 hsla(0,0%,100%,.15);
+		background-clip: padding-box;
+		background-color: #00c4ff;
+		border-radius: 0px;
+		box-shadow: 0 1px 0 rgba(0,0,0,.25), inset 0 1px 0 hsla(0,0%,100%,.15);
+		color: var(--fifthText-color);
+		display: inline-block;
+		font-size: 12px;
+		font-weight: 500;
+		line-height: 12px;
+		padding: 3px 6px;
+		text-shadow: 0 1px 0 rgba(0,0,0,.25);
 	}
 
 	/* SERVER TITLE */
