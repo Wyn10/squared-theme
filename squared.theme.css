@@ -841,6 +841,14 @@
 		padding-right: 5px;
 	}
 
+	.theme-dark .title-qAcLxz {
+    		background: var(--third-color);
+	}
+
+	.title-qAcLxz, .titleCall-3X0yGQ {
+    		height: 49px;
+	}
+
 	/* MENTIONED LEFT BAR */
 	.message-group .mentioned .message-text:after {
 		display: none;
