@@ -282,7 +282,31 @@
 		top: 50%;
 		width: 5px;
 	}
+	.mention-RlZ5F3 {
+		background-color: rgba(0, 196, 255, 1);
+	}
 
+
+	.bar-Y-RLyN {
+		-webkit-app-region: no-drag;
+		border-radius: 4px;
+		color: var(--fifthText-color);
+		cursor: pointer;
+		font-size: 12px;
+		height: 20px;
+		line-height: 14px;
+		pointer-events: auto;
+		position: relative;
+		text-transform: uppercase;
+		font-weight: 600;
+	}
+
+	.icon-2qNMWC {
+		color: var(--fifthText-color);
+		height: 12px;
+		margin-left: 4px;
+		width: 12px;
+	}
 	/* SERVER TITLE */
 	.guild-header header {
 	    background-color: var(--second-color);
