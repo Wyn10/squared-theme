@@ -1,4 +1,4 @@
-//META{"name":"Squared","description":"A square, dark, minimal, theme.","author":"Dreemlan","version":"2.0"}*//
+//META{"name":"Squared","description":"A square, dark, minimal, theme.","author":"Dreemlan/Wyn","version":"2.0"}*//
 
 
 /* FONT */
@@ -284,8 +284,8 @@
 	}
 
 	.mention-RlZ5F3 {
-    		background-color: var(--second-color)!important;
-    		color: var(--blue-color)!important;
+		background-color: var(--second-color)!important;
+		color: var(--blue-color)!important;
 	}
 
 	.mention-RlZ5F3:hover{
@@ -294,25 +294,25 @@
 	}
 
 	.mention-RlZ5F3 [name='ArrowUp']{
-    		display:none;
+		display:none;
 	}
 
 	.mention-RlZ5F3 [name='ArrowDown']{
-    		display:none;
+		display:none;
 	}
 
 	.unread-2TDDFN {
-    		background-color: var(--second-color)!important;
-    		color: var(--blue-color)!important;
+		background-color: var(--second-color)!important;
+		color: var(--blue-color)!important;
 	}
 
 	.unread-2TDDFN:hover{
 		background-color: var(--blue-color)!important;
-    		color: var(--fifthText-color)!important;
+		color: var(--fifthText-color)!important;
 	}
 
 	.unread-2TDDFN [name='ArrowUp']{
-    		display:none;
+		display:none;
 	}
 
 	.bar-Y-RLyN {
@@ -1248,24 +1248,26 @@
 		color: var(--fourthText-color);
 	}
 
-	#user-profile-modal .actions .btn.add-friend, #user-profile-modal .actions .btn.send-message {
-		background: var(--blue-color);
-		font-weight: 800;
-	}
+#user-profile-modal .actions .btn.add-friend, #user-profile-modal .actions .btn.send-message {
+    background: var(--blue-color);
+    font-weight: 800;
+}
 
-	#user-profile-modal:hover .actions:hover .btn.add-friend:hover, #user-profile-modal:hover .actions:hover .btn.send-message:hover {
-		background: var(--fifth-color);
-		font-weight: 800;
-	}
+#user-profile-modal:hover .actions:hover .btn.add-friend:hover, #user-profile-modal:hover .actions:hover .btn.send-message:hover {
+    background: var(--fifth-color);
+    font-weight: 800;
+}
 
-	#user-profile-modal .btn {
-		color: var(--thirdText-color)
-		font-weight: 800;
-	}
+#user-profile-modal .btn {
+    color: var(--fifth-color);
+    font-weight: 800;
+}
 
-	#user-profile-modal:hover .btn:hover {
-		color: var(--blue-color);
-	}
+#user-profile-modal:hover .btn:hover {
+    color: var(--blue-color);
+    font-weight: 800;
+}
+
 
 /* USER-ACTIVITY */
 
@@ -1625,9 +1627,7 @@
 		--fourth-color: rgba(20, 20, 20, 1.0);
 		--fifth-color: rgba(15, 15, 15, 1.0);
 		--scrollbar-color: rgba(50, 50, 50, 1.0);
-		
-		--blue-color: rgba(0, 196, 255, 1)
-
+		--blue-color: rgba(0, 196, 255, 1);
 		--firstText-color: rgba(255, 255, 255, 1.0);
 		--secondText-color: rgba(200, 200, 200, 1.0);
 		--thirdText-color: rgba(150, 150, 150, 1.0);
