@@ -1396,7 +1396,6 @@
 
 	.tab-bar.TOP .tab-bar-item.selected {
 		color: var(--firstText-color);
-		border-bottom: var(--firstText-color);
 	}
 
 	.tab-bar.TOP .tab-bar-item {
