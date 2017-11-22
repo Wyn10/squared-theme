@@ -194,26 +194,26 @@
 
 /* CONNECTED VOICE */
 
-	#rtc-connection {
+	.rtc-connection {
 	    background-color: var(--second-color);
 	    border-right: 2px solid rgba(0, 0, 0, 0.2);
 	}
 
-	#rtc-connection .btn-group {
+	.rtc-connection .btn-group {
 	    border: none;
 	}
 
-	#rtc-connection .btn-info {
+	.rtc-connection .btn-info {
 	    display: none;
 	}
 
-	#rtc-connection .btn-disconnect {
+	.rtc-connection .btn-disconnect {
 	    background-color: var(--second-color);
 	    box-shadow: none;
 	    border: none;
 	}
 
-	#inner-ptMwR- .rtc-connection-status-connected {
+	.inner-ptMwR- .rtc-connection-status-connected {
 	    color: var(--blue-color);
 	}
 
