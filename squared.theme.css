@@ -230,6 +230,11 @@
 	.avatarDefault-3jtQoc, .avatarSpeaking-3teDH6 {
 		border-radius: 0;
 	}
+
+	.avatarSpeaking-3teDH6 {
+		-webkit-box-shadow: 0 0 0 2px var(--blue-color), inset 0 0 0 1.5px #2f3136;
+		box-shadow: 0 0 0 2px var(--blue-color), inset 0 0 0 1.5px #2f3136;
+	}
 	
 	.nameDefault-1I0lx8 {
 		color: var(--thirdText-color);
