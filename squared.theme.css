@@ -213,7 +213,9 @@
 	    border: none;
 	}
 
-
+	#inner-ptMwR- .rtc-connection-status-connected {
+	    color: var(--blue-color);
+	}
 
 /* TEXT/VOICE CHANNEL */
 
