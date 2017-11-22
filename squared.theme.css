@@ -282,8 +282,37 @@
 		top: 50%;
 		width: 5px;
 	}
-	.mention-RlZ5F3 {
+
+	.mention-RlZ5F3:hover{
 		background-color: rgba(0, 196, 255, 1);
+		color: var(--fifthText-color)
+	}
+
+	.mention-RlZ5F3 {
+		background-color: var(--second-color);
+		color: rgba(0, 196, 255, 1);
+	}
+
+	.mention-RlZ5F3 [name='ArrowUp']{
+		display:none;
+	}
+
+	.mention-RlZ5F3 [name='ArrowDown']{
+		display:none;
+	}
+
+	.unread-2TDDFN {
+		background-color: var(--second-color);
+		color: rgba(0, 196, 255, 1);
+	}
+
+	.unread-2TDDFN:hover{
+		background-color: rgba(0, 196, 255, 1);
+		color: var(--fifthText-color)
+	}
+
+	.unread-2TDDFN [name='ArrowUp']{
+    display:none;
 	}
 
 
@@ -1218,6 +1247,25 @@
 
 	#user-profile-modal .guilds .section .section-header {
 		color: var(--fourthText-color);
+	}
+
+	#user-profile-modal .actions .btn.add-friend, #user-profile-modal .actions .btn.send-message {
+		background: rgba(0, 196, 255, 1);
+		font-weight: 800;
+	}
+
+	#user-profile-modal:hover .actions:hover .btn.add-friend:hover, #user-profile-modal:hover .actions:hover .btn.send-message:hover {
+		background: var(--fifth-color);
+		font-weight: 800;
+	}
+
+	#user-profile-modal .btn {
+		color: var(--thirdText-color)
+		font-weight: 800;
+	}
+
+	#user-profile-modal:hover .btn:hover {
+		color: rgba(0, 196, 255, 1);
 	}
 
 /* USER-ACTIVITY */
