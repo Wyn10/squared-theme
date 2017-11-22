@@ -217,6 +217,47 @@
 	    color: var(--blue-color);
 	}
 
+	.popout section {
+	    background-color: var(--second-color);
+	    border-radius: 0 0 3px 3px;
+	    padding: 20px;
+	}
+
+	.popout header {
+	    -ms-flex-align: center;
+	    -ms-flex-pack: center;
+	    -webkit-box-align: center;
+	    -webkit-box-pack: center;
+	    align-items: center;
+	    background-color: var(--third-color);
+	    border-radius: 3px 3px 0 0;
+	    color: var(--blue-color);
+	    display: -webkit-box;
+	    display: -ms-flexbox;
+	    display: flex;
+	    font-size: 14px;
+	    font-weight: 500;
+	    justify-content: center;
+	    padding: 13px;
+	    position: relative;
+	    text-transform: uppercase;
+	}
+
+	#rtc-connection-popout .secured {
+	    -ms-flex: 1;
+	    -webkit-box-flex: 1;
+	    color: var(--blue-color);
+	    flex: 1;
+	    font-size: 12px;
+	    font-weight: 500;
+	}
+
+	#rtc-connection-popout hr {
+	    border: 2px solid var(--scrollbar-color);
+	    border-bottom: none;
+	    margin: 14px -15px;
+	}
+
 /* TEXT/VOICE CHANNEL */
 
 	.nameDefault-Lnjrwm {
