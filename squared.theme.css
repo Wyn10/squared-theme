@@ -75,7 +75,7 @@
 
 	/* SELECTED SERVER BAR */
 	.guilds-wrapper .guilds .guild.selected:before {
-		background-color: rgba(0, 196, 255, 1);
+		background-color: var(--blue-color);
 		border-radius: 0px;
 		height: 25px;
 		margin-top: -12px;
@@ -283,38 +283,37 @@
 		width: 5px;
 	}
 
-	.mention-RlZ5F3:hover{
-		background-color: rgba(0, 196, 255, 1);
-		color: var(--fifthText-color)
+	.mention-RlZ5F3 {
+    		background-color: var(--second-color)!important;
+    		color: var(--blue-color)!important;
 	}
 
-	.mention-RlZ5F3 {
-		background-color: var(--second-color);
-		color: rgba(0, 196, 255, 1);
+	.mention-RlZ5F3:hover{
+		background-color: var(--blue-color)!important;
+		color: var(--fifthText-color)!important;
 	}
 
 	.mention-RlZ5F3 [name='ArrowUp']{
-		display:none;
+    		display:none;
 	}
 
 	.mention-RlZ5F3 [name='ArrowDown']{
-		display:none;
+    		display:none;
 	}
 
 	.unread-2TDDFN {
-		background-color: var(--second-color);
-		color: rgba(0, 196, 255, 1);
+    		background-color: var(--second-color)!important;
+    		color: var(--blue-color)!important;
 	}
 
 	.unread-2TDDFN:hover{
-		background-color: rgba(0, 196, 255, 1);
-		color: var(--fifthText-color)
+		background-color: var(--blue-color)!important;
+    		color: var(--fifthText-color)!important;
 	}
 
 	.unread-2TDDFN [name='ArrowUp']{
-    display:none;
+    		display:none;
 	}
-
 
 	.bar-Y-RLyN {
 		-webkit-app-region: no-drag;
@@ -1250,7 +1249,7 @@
 	}
 
 	#user-profile-modal .actions .btn.add-friend, #user-profile-modal .actions .btn.send-message {
-		background: rgba(0, 196, 255, 1);
+		background: var(--blue-color);
 		font-weight: 800;
 	}
 
@@ -1265,7 +1264,7 @@
 	}
 
 	#user-profile-modal:hover .btn:hover {
-		color: rgba(0, 196, 255, 1);
+		color: var(--blue-color);
 	}
 
 /* USER-ACTIVITY */
@@ -1626,6 +1625,8 @@
 		--fourth-color: rgba(20, 20, 20, 1.0);
 		--fifth-color: rgba(15, 15, 15, 1.0);
 		--scrollbar-color: rgba(50, 50, 50, 1.0);
+		
+		--blue-color: rgba(0, 196, 255, 1)
 
 		--firstText-color: rgba(255, 255, 255, 1.0);
 		--secondText-color: rgba(200, 200, 200, 1.0);
