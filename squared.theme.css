@@ -383,10 +383,22 @@
 		margin-left: 4px;
 		width: 12px;
 	}
+
+	/* ACTIVE CHANNEL HIGHLIGHT BAR */
+	.private-channels .channel a:active,
+	.private-channels .channel.selected a,
+	.contentSelectedVoice-gTtYM9,
+	.wrapper-fDmxzK:active .contentSelectedVoice-gTtYM9,
+	.contentHoveredText-2HYGIY:active,
+	.contentSelectedText-3j5CXt{
+	    background: var(--fourth-color);
+	}
+
+
 	/* SERVER TITLE */
 	.guild-header header {
 	    background-color: var(--second-color);
-		height: 57px;
+	    height: 57px;
 	}
 
 	/* SERVER TITLE HOVER */
@@ -1358,25 +1370,25 @@
 		color: var(--fourthText-color);
 	}
 
-#user-profile-modal .actions .btn.add-friend, #user-profile-modal .actions .btn.send-message {
-    background: var(--blue-color);
-    font-weight: 800;
-}
+	#user-profile-modal .actions .btn.add-friend, #user-profile-modal .actions .btn.send-message {
+		background: var(--blue-color);
+		font-weight: 800;
+	}
 
-#user-profile-modal:hover .actions:hover .btn.add-friend:hover, #user-profile-modal:hover .actions:hover .btn.send-message:hover {
-    background: var(--fifth-color);
-    font-weight: 800;
-}
+	#user-profile-modal:hover .actions:hover .btn.add-friend:hover, #user-profile-modal:hover .actions:hover .btn.send-message:hover {
+		background: var(--fifth-color);
+		font-weight: 800;
+	}
 
-#user-profile-modal .btn {
-    color: var(--fifth-color);
-    font-weight: 800;
-}
+	#user-profile-modal .btn {
+		color: var(--fifth-color);
+		font-weight: 800;
+	}
 
-#user-profile-modal:hover .btn:hover {
-    color: var(--blue-color);
-    font-weight: 800;
-}
+	#user-profile-modal:hover .btn:hover {
+		color: var(--blue-color);
+		font-weight: 800;
+	}
 
 
 /* USER-ACTIVITY */
