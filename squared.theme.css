@@ -394,6 +394,10 @@
 	    background: var(--fourth-color);
 	}
 
+	/* EMOJI REACTION COUNT */
+	.theme-dark .reaction.reaction-me .reaction-count {
+	    color: var(--blue-color);
+	}
 
 	/* SERVER TITLE */
 	.guild-header header {
