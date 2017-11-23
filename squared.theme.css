@@ -870,6 +870,34 @@
 		height 50px;
 	}
 
+	.autocompleteRow-31UJBI {
+		font-size: 14px;
+		line-height: 16px;
+		background-color: var(--fourth-color);
+		padding: 0 8px;
+	}
+
+	.autocompleteInner-N7OQf1 {
+		padding-bottom: 7px;
+		background-color: var(--fourth-color);
+	}
+
+	.theme-dark .selectorSelected-2M0IGv {
+		background-color: var(--scrollbar-color);
+	}
+
+	.theme-dark .content-249Pr9 {
+		color: var(--blue-color);
+	}
+
+	.theme-dark .description-YnaVYa, .theme-dark .descriptionUsername-1quCGz {
+		color: var(--thirdText-color);
+	}
+
+	.theme-dark .contentTitle-sL6DrN {
+		color: var(--secondText-color);
+	}
+
 	/* EMOJI BUTTON */
 	.channel-textarea-emoji {
 	    display: none;
