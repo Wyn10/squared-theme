@@ -834,9 +834,8 @@
 /* TOOLTIPS */
 
 	.tooltip {
-		display: none;
-		background-color: var(--fifth-color);
-		color: white;
+		background-color: var(--second-color);
+		color: var(--blue-color);
 		border-radius: 0;
 	}
 
