@@ -491,6 +491,11 @@
 		width: 50px;
 	}
 
+	.message-group .avatar-large {
+		margin-right: 10px;
+		margin-top: -2px;
+	}
+
 /* PRIVATE MESSAGES */
 
 	.private-channels .scroller {
@@ -950,6 +955,14 @@
 
 	.theme-dark .contentTitle-sL6DrN {
 		color: var(--secondText-color);
+	}
+
+	.message-group .edit-message .edit-operation>a {
+		color: var(--blue-color);
+	}
+
+	.theme-dark .message-group .edit-message .edit-operation {
+		color: var(--fourthText-color);
 	}
 
 	/* EMOJI BUTTON */
