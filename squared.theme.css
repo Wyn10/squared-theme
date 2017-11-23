@@ -598,6 +598,40 @@
 		border-color: var(--third-color);
 	}
 
+	.theme-dark #friends .tab-bar .tab-bar-item.tab-bar-item-primary {
+		background-color: var(--fifth-color);
+		color: var(--blue-color);
+	}
+
+	.theme-dark #friends .tab-bar .tab-bar-item.tab-bar-item-primary .badge {
+		background-color: var(--blue-color);
+		color: var(--fifth-color);
+	}
+
+	.theme-dark #friends .tab-bar .tab-bar-item.tab-bar-item-primary:hover:not(.selected) {
+		background-color: var(--scrollbar-color);
+	}
+
+	.theme-dark #friends .tab-bar .tab-bar-item {
+		color: var(--blue-color);
+	}
+
+
+	.theme-dark #friends .tab-bar .tab-bar-item.selected {
+		background-color: var(--scrollbar-color);
+		color: var(--blue-color);
+	}
+
+
+	.theme-dark #friends .tab-bar .tab-bar-item:hover:not(.selected) {
+		background-color: var(--scrollbar-color);
+	}
+
+
+	.theme-dark .headerBar-cxbhPD {
+    background: var(--third-color);
+	}
+
 /* MISC BUTTONS */
 
 	/* HEADER TOOLBAR */
@@ -1471,6 +1505,7 @@
 	}
 
 	.tab-bar.TOP .tab-bar-item.selected {
+		border-bottom: 4px solid var(--scrollbar-color);
 		color: var(--firstText-color);
 	}
 
