@@ -1047,7 +1047,7 @@
 	}
 
 	.mention {
-		color: var(--firstText-color);
+		color: var(--blue-color);
 		background-color: rgba(0, 0, 0, 0.3);
 	}
 
