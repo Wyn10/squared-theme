@@ -384,6 +384,11 @@
 		width: 12px;
 	}
 
+	/* CHANNEL AND VOICE CHANNEL TEXT */
+	.name-2SL4ev {
+	font-size: 14px;
+	}
+
 	/* ACTIVE CHANNEL HIGHLIGHT BAR */
 	.private-channels .channel a:active,
 	.private-channels .channel.selected a,
