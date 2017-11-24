@@ -1,9 +1,9 @@
 //META{"name":"Squared","description":"A square, dark, minimal, theme.","author":"Dreemlan/Wyn","version":"2.0"}*//
-
+@import url('https://fonts.googleapis.com/css?family=Exo+2');
 
 /* FONT */
 	body {
-		font-family: Segoe UI;
+		font-family: 'Exo 2', Segoe UI;
 	}
 
 	#app-mount {
@@ -1083,7 +1083,7 @@
 	.chat .jump-to-present-bar button {
 		background: none;
 		color: var(--firstText-color);
-		font-family: Segoe UI;
+		font-family: 'Exo 2', Segoe UI;
 		line-height: 14px;
 		padding: 6px 10px;
 		text-align: left;
