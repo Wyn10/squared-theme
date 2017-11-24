@@ -480,6 +480,10 @@
 		background: var(--fifth-color);
 	}
 
+	.textArea-20yzAH {
+		font-family: 'Exo 2', Segoe UI;
+	}
+
 /* SQUARE AVATARS */
 	.avatar-large, .avatar-profile, .avatar-small, .avatar-xlarge, .avatar-xsmall, .avatar-xxlarge {
 		border-radius: 0px;
